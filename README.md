@@ -4,7 +4,7 @@ Point of interest detection and matching with sift, harris.
 
 1. Use Harris corner detection algorithm to detect key points of two images with the same shooting scene but different perspectives.
 2. Extract the SIFT descriptor for the key points in step 1. In order to reduce work, SIFT encoding does not implement all the steps of the algorithm, but only implements the specified content to complete a "simplified SIFT".
-3. Use the key point descriptor in step 2 to perform key point matching to further estimate the transformation relationship between the two images
+3. Use the key point descriptor in step 2 to perform key point matching to further estimate the transformation relationship between the two images.
 
 ### Language and Environment
 
